@@ -1,0 +1,114 @@
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width:100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+aside{
+    width:1200px;
+    border: 1px solid black;
+    height:1450px;
+    margin:0 auto;
+}
+
+.cores{
+    width: 100%;
+    max-width: 1200px;
+    height: 1450px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-areas: 
+    "verde1 roxo1"
+    "verde2 rosa"
+    "amarelo1 amarelo1"
+    "azul1 verde3"
+    "salmao salmao"
+    "amarelo2 rosa2 azul2"
+    "roxo2 roxo2"
+    "verde4 verde4";
+}
+
+.verde1{
+    background-color: rgb(197, 238, 211);
+    grid-area:verde1;
+    height: 150px;
+}
+
+.verde2{
+    background-color: rgb(183, 221, 196);
+    grid-area:verde2;
+    height: 200px;
+}
+.verde3{
+    background-color: rgb(183, 221, 196);
+    grid-area:verde3;
+    height: 350px;
+}
+
+.verde4{
+    background-color: rgb(183, 221, 196);
+    grid-area:verde4;
+    height: 200px;
+}
+
+.roxo1{
+    grid-area: roxo1;
+    background-color: rgb(210, 193, 226);
+    height:150px;
+}
+
+.roxo2{
+    grid-area: roxo2;
+    background-color: rgb(174, 155, 192);
+    height:50px;
+}
+
+
+.rosa1{
+    grid-area: rosa1;
+    background-color:rgb(211, 150, 187);
+    height: 200px;
+}
+.rosa2{
+    grid-area: rosa2;
+    background-color:rgb(211, 150, 187);
+    height: 200px;
+    display: flex;
+}
+
+.amarelo1{
+    grid-area: amarelo1;
+    background-color: rgb(206, 224, 123);
+    height: 100px;
+}
+.amarelo2{
+    grid-area: amarelo2;
+    background-color: rgb(206, 224, 123);
+    height: 200px;
+    width: 400px;
+}
+
+.azul1{
+    background-color: aquamarine;
+    grid-area: azul1;
+    height: 350px;
+    width: 600px;
+}
+.azul2{
+    background-color: aquamarine;
+    grid-area: azul2;
+    height:200px;
+}
+.salmao{
+    grid-area:salmao;
+    background-color: rgb(212, 170, 115);
+    height: 200px;
+}

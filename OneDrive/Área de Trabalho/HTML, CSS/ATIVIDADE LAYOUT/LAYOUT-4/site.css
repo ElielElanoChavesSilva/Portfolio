@@ -1,0 +1,76 @@
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width:100%;
+    height: auto;
+    min-height: 100px;
+}
+
+aside{
+    width:1200px;
+    border: 1px solid black;
+    height:1450px;
+    margin:0 auto;
+}
+
+.cores{
+    max-width: 1200px;
+    width: 100%;
+    height: 1450px;
+    display:grid;
+    margin: 0 auto;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "rosa rosa rosa rosa"
+    "azul azul amarelo amarelo"
+    "verde verde violeta violeta"
+    "roxo roxo roxo roxo"
+    "salmao salmao salmao salmao"
+    ;
+}
+.rosa{
+    grid-area:rosa;
+    background-color:pink;
+    height: 550px;
+}
+
+.azul{
+    grid-area:azul;
+    background-color: rgb(169, 243, 243);
+    height: 150px;
+}
+
+.amarelo{
+    grid-area:amarelo;
+    background-color: rgb(217, 255, 128);
+    height: 150px;
+}
+.verde{
+    grid-area:verde;
+    background-color: rgb(165, 248, 172);
+    height: 350px;
+}
+
+.violeta{
+    grid-area:violeta;
+    background-color: rgb(226, 156, 243);
+    height: 350px;
+}
+
+.roxo{
+    grid-area:roxo;
+    background-color: rgb(218, 205, 224);
+    height: 150px;
+}
+
+.salmao{
+    grid-area:salmao;
+    background-color: rgb(255, 218, 137);
+    height:250px;
+}
