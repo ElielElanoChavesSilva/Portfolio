@@ -1,0 +1,63 @@
+.data {
+    width: 40vw;
+    height: 50vh;
+    padding: 50px;
+    background: #f3f0f00e;
+    backdrop-filter: blur(2px);
+    border: 3px solid rgb(3, 228, 160);
+    border-radius: 6px;
+    color: white;
+    margin-top: 40px;
+}
+
+strong {
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    color:  rgb(3, 228, 160);
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.Links {
+    width: 130px;
+    height: 130px;
+    border: 2px solid  rgb(3, 228, 160);
+    padding: 40px;
+}
+
+a {
+    color: rgb(3, 228, 160);
+}
+
+h3 {
+    color: white;
+    height: 0px;
+}
+
+@media screen and (max-width: 410px) {
+    .data {
+        height: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    
+}

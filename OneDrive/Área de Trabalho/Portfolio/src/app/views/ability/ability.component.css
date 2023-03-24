@@ -1,0 +1,47 @@
+.habily {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    color:  rgb(3, 228, 160);
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.img {
+    display: grid;
+    padding: 20px;
+    justify-items: center;
+    width: 200px;
+    height: 190px;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 17px;
+}
+
+
+@media screen and (max-width: 740px) {
+    .habily{
+        flex-direction: column;
+        height: auto;
+    }
+}
