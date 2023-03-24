@@ -1,0 +1,66 @@
+article {
+    width: 100vw;
+    height: 400px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.primary {
+    width: 600px;
+    height: 500px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border: 3px solid white;
+    margin-bottom: 70px;
+    border-radius: 5px;
+}
+
+p {
+    font-family: 'open Sans';
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(3, 228, 160);
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'open sans';
+    color: white;
+}
+
+.download {
+    width: 170px;
+    height: 46px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(3, 228, 160) !important;
+    border: 2px solid rgb(3, 228, 160);
+    margin-top: 75px;
+}
+
+@media screen and (max-width: 740px) {
+    article {
+      flex-direction: column;
+      height: auto;
+      margin-top: 20px;
+    }
+    
+    .primary {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    img {
+      margin-bottom: 30px;
+    }
+  }
+  
