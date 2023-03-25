@@ -43,7 +43,7 @@ h1 {
     font-weight: 600;
     color: rgb(3, 228, 160) !important;
     border: 2px solid rgb(3, 228, 160);
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
 @media screen and (max-width: 740px) {
