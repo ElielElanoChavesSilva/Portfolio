@@ -38,3 +38,12 @@ a {
 a.active{
     border-bottom: 4px solid rgb(25, 190, 141);
 }
+
+.button-contact:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 660px) {
+     
+  }
+  

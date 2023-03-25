@@ -9,13 +9,13 @@ import { MEComponent } from './views/me/me.component';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { AbilityComponent } from './views/ability/ability.component';
 import { ContactComponent } from './views/contact/contact.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
-import { MatSidenavModule} from '@angular/material/sidenav'
+import { MatSidenavModule} from '@angular/material/sidenav';
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule} from '@angular/material/icon'
+import { MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -34,7 +34,7 @@ import { MatIconModule} from '@angular/material/icon'
     MatToolbarModule,
     MatButtonModule,
     BrowserModule,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

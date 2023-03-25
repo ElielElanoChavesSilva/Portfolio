@@ -33,11 +33,14 @@ img {
     height: 90px;
 }
 
+img:hover {
+    transform: scale(1.2);
+}
+
 p {
     font-family: 'Open Sans';
     font-size: 17px;
 }
-
 
 @media screen and (max-width: 740px) {
     .habily{
