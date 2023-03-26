@@ -9,4 +9,9 @@ export class HeaderComponent {
   
   activeButton = 1;
 
+  isMenuOpen = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

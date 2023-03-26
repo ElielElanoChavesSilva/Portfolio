@@ -35,6 +35,13 @@ a {
     font-weight: 800;
 }
 
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 a.active{
     border-bottom: 4px solid rgb(25, 190, 141);
 }
@@ -43,7 +50,7 @@ a.active{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 660px) {
-     
-  }
+@media screen and (max-width: 600px) {
+  
+}
   
