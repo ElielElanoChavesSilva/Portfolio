@@ -1,12 +1,15 @@
+<button mat-button class="menu" *ngIf="teste" (click)="toggleMenu()">
+    <mat-icon class="i">menu</mat-icon>
+</button>
 <mat-toolbar class="header">
-    <span>
-        <a class= 'under' (click)= "activeButton = 1" [ngClass]="{'active': activeButton === 1}" routerLink="me">
+    <span class="menu-button" *ngIf="!teste || showMenu">
+        <a class= 'under' (click)="toggleMenu()" (click)= "activeButton = 1"  [ngClass]="{'active': activeButton === 1}" routerLink="me">
             Sobre mim
         </a>
-        <a class= 'under' (click)= "activeButton = 2" [ngClass]="{'active': activeButton === 2}" routerLink="projetos">
+        <a class= 'under' (click)="toggleMenu()" (click)= "activeButton = 2" [ngClass]="{'active': activeButton === 2}" routerLink="projetos">
             Projetos
         </a>
-        <a class= 'under' (click)= "activeButton = 3" [ngClass]="{'active': activeButton === 3}" routerLink="ability">
+        <a class= 'under' (click)="toggleMenu()" (click)= "activeButton = 3" [ngClass]="{'active': activeButton === 3}" routerLink="ability">
             Habilidades
         </a>    
         <button class="button-contact" mat-button  routerLink="contact">CONTATO</button>

@@ -35,6 +35,10 @@ a {
     font-weight: 800;
 }
 
+.i {
+    color: rgb(25, 190, 141) !important;
+}
+
 .links {
     width: 100%;
     display: flex;
@@ -50,7 +54,22 @@ a.active{
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 600px) {
-  
+@media screen and (max-width: 660px) {
+    .header {
+        height: auto;
+        width: auto;
+    }
+
+    .menu-button {
+        display: grid;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .button-contact {
+       margin-left: 0;
+    }
 }
   

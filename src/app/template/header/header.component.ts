@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -8,10 +8,20 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   
   activeButton = 1;
+  teste: boolean;
+  showMenu: boolean = false;
+  
+  constructor(){
+    this.teste = window.innerWidth < 660;
+    this.showMenu = false;
+  }
 
-  isMenuOpen = false;
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.teste = window.innerWidth <660;
+  }
 
   toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+    this.showMenu = !this.showMenu;
   }
 }
