@@ -57,13 +57,13 @@ a.active{
 @media screen and (max-width: 660px) {
     .header {
         height: auto;
-        width: auto;
+        margin-left: 0;
+        display: block;
     }
 
     .menu-button {
-        display: grid;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         position: relative;
         margin-top: 50px;
     }
