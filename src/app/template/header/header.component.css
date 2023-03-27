@@ -37,6 +37,7 @@ a {
 
 .i {
     color: rgb(25, 190, 141) !important;
+    transform: scale(1.4);
 }
 
 .links {

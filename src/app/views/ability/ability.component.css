@@ -42,7 +42,7 @@ p {
     font-size: 17px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 1000px) {
     .habily{
         flex-direction: column;
         height: auto;
