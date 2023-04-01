@@ -11,14 +11,14 @@ article {
 .primary {
     width: 600px;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 img {
     width: 350px;
     height: 350px;
     border: 3px solid white;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 
