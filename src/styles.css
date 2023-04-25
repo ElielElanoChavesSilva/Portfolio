@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&display=swap');
 
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 body {
     width: 100vw;
     height: 100vh;
@@ -12,18 +15,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    transform: scale(1.1);
-}
-
 main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
