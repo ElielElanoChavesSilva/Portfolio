@@ -54,6 +54,7 @@ button:hover{
 
 .P:hover {
     background-color: rgb(4, 5, 5);
+    color:  rgb(3, 228, 160);
     transition: 0.8s;
 }
 
