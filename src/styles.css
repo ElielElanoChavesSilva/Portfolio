@@ -6,7 +6,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom right, rgb(50, 136, 112), black);
+    background: linear-gradient(to bottom right, rgb(53, 134, 111), black);
     background-size: cover;
     background-attachment: fixed;
 }

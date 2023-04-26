@@ -22,6 +22,7 @@ p {
     text-decoration: none;
     color: white;
     font-family: 'Open Sans';
+    cursor: pointer;
 }
 
 .button-contact {
