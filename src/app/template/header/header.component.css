@@ -35,11 +35,6 @@ p {
     font-weight: 800;
 }
 
-.i {
-    color: rgb(25, 190, 141) !important;
-    transform: scale(1.4);
-}
-
 p.active{
     border-bottom: 4px solid rgb(25, 190, 141);
     padding-top: 4px;
@@ -60,7 +55,12 @@ p.active{
         flex-direction: column;
         gap: 25px;
         position: relative;
-        margin-top: 50px;
+    }
+
+    .i {
+        color: rgb(25, 190, 141) !important;
+        font-size: 30px;
+        padding: 20px;
     }
 
     .button-contact {

@@ -1,6 +1,4 @@
-<button mat-button class="menu" *ngIf="teste" (click)="toggleMenu()">
-    <mat-icon class="i">menu</mat-icon>
-</button>
+<mat-icon class="i" *ngIf="teste" (click)="toggleMenu()" >menu</mat-icon>
 <mat-toolbar class="header DF">
     <span class="menu-button" *ngIf="!teste || showMenu">
         <p (click)="toggleMenu()" (click)= "activeButton = 1"  [ngClass]="{'active': activeButton === 1}" routerLink="me">
