@@ -1,6 +1,5 @@
 .header {
     background-color: transparent;
-    display: flex;
     height: 50px;
     margin-bottom: 70px;
     padding-top: 50px;
@@ -10,17 +9,16 @@ span {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
-a {
+p {
     width: 120px;
     height: 40px;
-    justify-content: center;
-    border: 2px solid rgb(25, 190, 141);
-    border-radius: 5px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
     font-family: 'Open Sans';
@@ -41,15 +39,9 @@ a {
     transform: scale(1.4);
 }
 
-.links {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-a.active{
+p.active{
     border-bottom: 4px solid rgb(25, 190, 141);
+    padding-top: 4px;
 }
 
 .button-contact:hover {

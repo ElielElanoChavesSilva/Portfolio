@@ -17,13 +17,13 @@ h1 {
     margin-top: 50px;
 }
 
-.img {
+.div {
     display: grid;
     padding: 20px;
     justify-items: center;
     width: 200px;
     height: 190px;
-    background-color: white;
+    background-color: rgb(252, 246, 207);
     border-radius: 6px;
     font-weight: 500;
 }
@@ -37,6 +37,11 @@ img:hover {
     transform: scale(1.2);
 }
 
+
+.div:hover {
+    background-color: rgb(163, 163, 149);
+    transition: 0.9s;
+}
 p {
     font-family: 'Open Sans';
     font-size: 17px;
@@ -46,5 +51,6 @@ p {
     .habily{
         flex-direction: column;
         height: auto;
+        margin-bottom:40px;
     }
 }

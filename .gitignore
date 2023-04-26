@@ -1,1 +1,3 @@
 node_modules
+.angular/cache/
+.angular/cache/15.2.4/angular-webpack/4e230c64ac028d6d9a3af063eb6a43da272488ad/1.pack

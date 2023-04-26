@@ -6,7 +6,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom right, rgb(50, 68, 63), black);
+    background: linear-gradient(to bottom right, rgb(50, 136, 112), black);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -21,4 +21,14 @@ main {
     align-items: center;
 }
 
+.DF {
+    display: flex;
+}
 
+.DG {
+    display: grid;
+}
+
+.fontOpenS {
+    font-family: 'Open Sans';
+}
