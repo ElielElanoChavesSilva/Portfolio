@@ -13,7 +13,7 @@ h1 {
 }
 
 .div {
-    width: 290px;
+    width: 310px;
     height: 190px;
     border-radius: 8px;    
     gap: 40px;
@@ -43,11 +43,11 @@ button:hover{
 
 .div:hover {
     color:  rgb(3, 228, 160);
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 15px white;
     transition: 0.5s;
 }
 
-@media screen and (max-width:930px) {
+@media screen and (max-width:1300px) {
     .box {
         flex-direction: column;
     }
